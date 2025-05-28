@@ -17,7 +17,7 @@ async def root():
 
 # Configuração do modelo LlamaCpp
 llm = LlamaCpp(
-    model_path="models/ggml-model-Q5_K_M.gguf",
+    model_path="lmu.famerp.br/tiago/models/ggml-model-Q5_K_M.gguf",
     n_ctx=32768,
     n_batch=64,
     n_threads=4,
